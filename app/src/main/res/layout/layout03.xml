@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B0A8A8">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#fff">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_weight="9"
+            android:background="#fff"
+            android:src="@mipmap/leftarrow" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Check out"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Delivery Address"
+            android:textColor="#000"
+            android:textSize="20dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="123 York StBrooklyn,Ny 11201.USA"
+                android:textColor="#000"
+                android:textSize="22dp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Change"
+                android:layout_marginRight="5dp"
+                android:textColor="#F31A1A"
+                android:backgroundTint="@color/design_default_color_background"
+                android:textSize="18dp"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Payment Method"
+            android:textColor="#000"
+
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add +"
+            android:backgroundTint="@color/design_default_color_background"
+            android:textColor="#F31A1A"
+            android:layout_marginRight="5dp"
+            android:textSize="18dp"
+            android:textAlignment="textEnd"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#B0A8A8"
+            android:layout_width="match_parent">
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/visa" />
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:background="@null"
+                android:textSize="20dp"
+                android:text="**** **** **** 1233"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#B0A8A8"
+            android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/paypal" />
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="5"
+                android:layout_marginLeft="25dp"
+                android:textSize="20dp"
+                android:text="jackygmail@gmail.com"
+                android:background="@null"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/checked" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#fff"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="Enter Coupon"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="HUNGRY10"
+            android:background="@null"
+            android:layout_marginRight="5dp"
+            android:textColor="#F31A1A"
+            android:textSize="18dp"
+            android:textAlignment="textEnd"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text="Summary"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="Subtotal"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textAlignment="textEnd"
+                android:text="$ 34.00"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="Delivery Cost"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textAlignment="textEnd"
+                android:text="Free"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:text="Discount"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:textAlignment="textEnd"
+                android:text="- $3.00"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="Total"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="#F56E6E"
+            android:textAlignment="textEnd"
+            android:text="$ 31.00"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#fff">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F56E6E"
+            app:cardCornerRadius="50dp"
+            >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Send Order"
+                android:textSize="20dp"
+                android:backgroundTint="#F56E6E"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
